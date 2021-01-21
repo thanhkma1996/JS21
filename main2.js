@@ -24,4 +24,17 @@
 
 /**
  *     Callback
+ *      Là hàm function được truyền qua đối số khi gọi hàm kasc
  */
+
+ function myfunction(params) {
+        if(typeof params === 'function'){
+            params('Hoc lap trinh ');
+        }
+ }
+
+ function myCallBack(value){
+        console.log('test product: ',value)
+ }
+
+ myfunction(123)
