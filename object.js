@@ -49,16 +49,36 @@ function User(firstName,lastName,avatar){
 var author = new User('Son','Nguyen','avatar');
 var user = new User('Thanh','Minh','Avatar');
 
+
 // them thuoc tinh cho rieng doi tuong
 
 author.title = 'Chia se dao';
 user.comment = 'Bai Hoc nay hay qua';
+
+// Object prototype
+// them 1 thuoc tinh vao ben trong ham
+User.prototype.className = '12D HVKTMM';
+User.prototype.getClassName = function(){
+    return this.className;
+}
+
+
+console.log(user.className);
 
 console.log(author);
 console.log(user);
 
 console.log(author.getName());
 console.log(user.getName());
+console.log(user.getClassName());
 
+// đối tượng Date
 
+var date  = new Date();
+console.log(date);
 
+var year = date.getFullYear();
+var month = date.getMonth() + 1;
+
+console.log(year);
+console.log(month);
