@@ -67,7 +67,7 @@ console.log("(MAP) Aray's Element: ",ht);
 
 //================ forEach ============================
 
-Array.prototype.forEach2 = function (callBack){
+Array.prototype.forEach2 = function (callBack){ // dinh nghia phuong thuc cho array constructor
     for (let i=0; i<this.length; i++){
         callBack(this[i], i);
     }
@@ -96,7 +96,7 @@ const SUM = coursePrice.reduce2( function(start_value, element, index, all){
 
 console.log("Sum by reduce: ",SUM);
 
-// ======================== EVERY & FIND & FILLTER ===================================
+// ======================== EVERY & FIND & FILLTER ===============================
 var Dog =[
     {
         name: "Đông",
