@@ -120,3 +120,5 @@ Eveninput.onmousedown = function(e) { // hạnh vi onmousedown khi di chuột s�
             e.stopPropagation(); // su dung thuoc tinh nay de khi click no chi tac dung den button duoc click k lam anh huong den button khac
             console.log('Click me vao button');
         }
+
+
