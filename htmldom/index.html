@@ -4,7 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        ul {
+            display: none;
+        }
 
+        input:focus ~ ul {
+            display: block;
+        }
+    </style>
 </head>
 <body>
 
@@ -33,6 +41,27 @@
                 <option value="tests3">3</option>
             </select>
         </div>
+
+        <div class="prvent-default">
+            <a href="https://fullstack.edu.vn">Hoc lap trinh</a>
+            <a href="https://www.google.com/">Google tim kiem</a>
+            <a href="https://www.mbbank.com.vn/">Nga Hang MB</a>
+
+        </div>
+
+         <div class="content-prevent-default">
+             <input type="text" placeholder="nhạp vao đây">
+             <ul>
+                 <li>PHP</li>
+                 <li>IOS</li>
+                 <li>JAVA</li>
+             </ul>
+         </div>
+
+         <div class="top-propagation">
+             DIV 
+             <button>Click me!</button>
+         </div>
 </body>
 <script src="main.js"></script>
 
