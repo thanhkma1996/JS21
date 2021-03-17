@@ -157,20 +157,20 @@ Validator.isEmail = function (selector, message) {
     };
 }
 
-// Validator.minLength = function (selector, min, message) {
-//     return {
-//         selector: selector,
-//         test: function (value) {
-//             return value.length >= min ? undefined :  message || `Vui lòng nhập tối thiểu ${min} kí tự`;
-//         }
-//     };
-// }
+Validator.minLength = function (selector, min, message) {
+    return {
+        selector: selector,
+        test: function (value) {
+            return value.length >= min ? undefined :  message || `Vui lòng nhập tối thiểu ${min} kí tự`;
+        }
+    };
+}
 
-// Validator.isConfirmed = function (selector, getConfirmValue, message) {
-//     return {
-//         selector: selector,
-//         test: function (value) {
-//             return value === getConfirmValue() ? undefined : message || 'Giá trị nhập vào không chính xác';
-//         }
-//     }
-// }
+Validator.isConfirmed = function (selector, getConfirmValue, message) {
+    return {
+        selector: selector,
+        test: function (value) {
+            return value === getConfirmValue() ? undefined : message || 'Giá trị nhập vào không chính xác';
+        }
+    }
+}
