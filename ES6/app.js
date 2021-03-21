@@ -128,3 +128,7 @@ var [a,b, ...rest] = array;
 
 console.log(a);
 console.log(rest);
+
+/// Optional chaining (?.)
+const user = this.props
+const field = user?.data?.attributes?.field // 🙌 Horray!!!
