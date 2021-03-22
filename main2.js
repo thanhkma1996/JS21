@@ -4,8 +4,8 @@
 
  var couser = {
         name:'javascript',
-        coin: 250
- }
+        coin: 2500
+ };
 
  if(couser.coin > 0){
     console.log(`${couser.coin} coins`);
@@ -19,7 +19,7 @@
 
  var a = 1;
  var b = 2;
- var c = a > b ? a:b
+ var c = a > b ? a:b;
  console.log(c);
 
 /**

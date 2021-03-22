@@ -28,7 +28,7 @@ switch(date) {
 var course = {
     name: 'Javascriptt',
     coin: 250
-}
+};
 
 if(course.coin > 0) {
     console.log(`${course.coin} coins`);
