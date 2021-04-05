@@ -26,14 +26,18 @@
       "id": 5
     }
   ],
+
   "comments": [
     {
-      "id": 1,
-      "body": "Bai hoc rat hay",
-      "postId": 1
+      "content": "Bài học rất hay",
+      "user_id": "1",
+      "id": 1
     }
   ],
+
   "profile": {
-    "name": "Thanh Nguyen"
+    "name": "Thien Minh",
+    "address": "Ha Noi",
+    "id": "1"
   }
 }

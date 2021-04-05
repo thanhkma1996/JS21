@@ -4,7 +4,7 @@
 //  Render ra giao dien HTML
 // trang API json free https://jsonplaceholder.typicode.com/
 
-var postAPI = 'https://jsonplaceholder.typicode.com/todos/';
+var postAPI = 'https://jsonplaceholder.typicode.com/comments';
 
 fetch(postAPI)
     .then(function(response){
@@ -14,10 +14,11 @@ fetch(postAPI)
     .then(function(posts){
         // console.log(posts);
         var htmls = posts.map(function(post){
-            return `<div>
-                <p> ${post.title}</p>
-                <h2> ${post.id}</h2>
-            </div>`
+            return `<ul>
+                <li> ${post.id}</li>
+                <li> ${post.name}</li>
+                <li> ${post.email}</li>
+            </ul>`
         })
 
         var content = htmls.join("");

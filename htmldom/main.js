@@ -23,11 +23,11 @@ for( var i=0; i < headings.length ; i++) {
 
 var headingElemment = document.querySelector('a');
 
-headingElemment.title = 'Heading';
-headingElemment.id = 'tesst'
-// headingElemment.className="tesst-class";
-headingElemment.href='tesst';
-headingElemment.setAttribute('class','testabc');
+// headingElemment.title = 'Heading';
+// headingElemment.id = 'tesst'
+// // headingElemment.className="tesst-class";
+// headingElemment.href='tesst';
+// headingElemment.setAttribute('class','testabc');
 
 // InnnerText với textContent Property
 
@@ -51,7 +51,7 @@ var inputelement = document.querySelector('input[type="text"]');
 
 inputelement.onchange = function(e) { // oninput
     console.log(e.target.value);
-}
+};
 
 // key up/down
 inputelement.onkeyup = function(e) { // oninput
@@ -77,7 +77,7 @@ var inputelements = document.querySelector('input[type="checkbox"]');
 inputelements.onchange = function(e) { // oninput
    var tesst = e.target.checked;
    console.log(tesst);
-}
+};
 
 // select
 
@@ -86,7 +86,7 @@ var inputelements = document.querySelector('select');
 inputelements.onchange = function(e) { // oninput
    var tesst = e.target.value;
    console.log(tesst);
-}
+};
 
 //  PreventDefault and StopPropagation
 // 1.PreventDefaul loại bỏ hành vi mặc định của element
@@ -107,18 +107,18 @@ var Eveninput = document.querySelector('ul');
 
 Eveninput.onmousedown = function(e) { // hạnh vi onmousedown khi di chuột sẽ dùng e.prevendefault để ngăn chặn havnhf vi cũ
     e.preventDefault();
-}
+};
 
 // hành vi nổi bọt StopPropagation
-    document.querySelector('div.top-propagation').onclick = 
+    document.querySelector('div.top-propagation').onclick =
         function(){
             console.log('Day laf 1 DIV dang bi click');
-        }
+        };
 
-    document.querySelector('button').onclick = 
+    document.querySelector('button').onclick =
         function(e){
             e.stopPropagation(); // su dung thuoc tinh nay de khi click no chi tac dung den button duoc click k lam anh huong den button khac
             console.log('Click me vao button');
-        }
+        };
 
 

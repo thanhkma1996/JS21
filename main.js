@@ -31,7 +31,7 @@ showMessage();
         myfunction: function () {
             
         }
-    }
+    };
 
 /**
  *  Polyfill 

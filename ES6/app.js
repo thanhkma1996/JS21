@@ -34,7 +34,7 @@
 //CACH VIET
 const logger = (log) => {
     console.log(log)
-}
+};
 
 logger("Test arrow function");
 
@@ -57,10 +57,10 @@ console.log(course.getName());
 const gender = function(name,price) {
     this.name = name;
     this.price = price;
-}
+};
 
 // Bai 3 Multiline string
-const nameTest = "thanh"
+const nameTest = "thanh";
 const description = `Counse name: ${nameTest} \\ template string noi suy voi : \${}`;
 
 console.log(description);

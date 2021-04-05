@@ -12,13 +12,13 @@ var myInfor = {
         return this.name;
     }
 
-}
+};
 
-myInfor.email = 'nguyendthanh@gmail.com';
+myInfor.email = 'nguyendthanh+2222@gmail.com';
 myInfor['my-gmail'] = 'nguyendthanh@gmail.com';
 
 // xoa 1 key value
-delete myInfor.age;
+delete myInfor.address;
 
 
 console.log(myInfor);
@@ -71,6 +71,9 @@ console.log(user);
 console.log(author.getName());
 console.log(user.getName());
 console.log(user.getClassName());
+console.log(author.title);
+console.log(user.comment);
+
 
 // đối tượng Date
 
