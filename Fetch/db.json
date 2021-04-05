@@ -1,0 +1,39 @@
+{
+    "course": [
+      {
+        "title": "Khoa hoc PHP-Nodejs",
+        "author": "THU HA",
+        "id": 1
+      },
+      {
+        "title": "Khoa hoc TESTING API",
+        "author": "THU HA",
+        "id": 2
+      },
+      {
+        "title": "Khoa hoc IOS",
+        "author": "THU HA",
+        "id": 3
+      },
+      {
+        "title": "Khoa hoc JAVA",
+        "author": "Thanh Nguyen",
+        "id": 4
+      },
+      {
+        "title": "Khoa hoc PHP",
+        "author": "Thanh Nguyen",
+        "id": 5
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "Bai hoc rat hay",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "Thanh Nguyen"
+    }
+  }
